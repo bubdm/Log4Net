@@ -1,0 +1,1 @@
+Simple log4Net configuration for RollingFileAppender and SMTPAppender
