@@ -89,9 +89,9 @@ namespace Log4Net.Logger
             log4net.GlobalContext.Properties["BrowserPlatform"] = browswer.Platform;
             log4net.GlobalContext.Properties["BrowserName"] = browswer.Browser;
             log4net.GlobalContext.Properties["BrowserVersion"] = browswer.Version;
-            log4net.GlobalContext.Properties["ApplicationName"] = "WIN.Website v1";
+            log4net.GlobalContext.Properties["ApplicationName"] = "[APPLICATION_NAME_HERE]";
 
-            //log4net.GlobalContext.Properties["UserId"] = [USER_ID_HERE];
+            log4net.GlobalContext.Properties["UserId"] = "[USER_ID_HERE]";
         }
     }
 }
